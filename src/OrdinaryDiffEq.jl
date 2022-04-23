@@ -255,6 +255,7 @@ using DocStringExtensions
       solve(lorenzprob,AutoVern9(Rodas5(autodiff=false)))
       solve(lorenzprob,AutoVern9(KenCarp47(autodiff=false)))
       solve(lorenzprob,AutoVern7(Rodas5()))
+      lorenzprob = nothing
       break
     end
   end
